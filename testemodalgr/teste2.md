@@ -1,0 +1,5 @@
+Nesta solução, a função encontrarNumerosRepetidos recebe os dois vetores de números como parâmetros. Um novo vetor chamado vetorDeNumerosRepetidos é inicializado para armazenar os números que se repetem.
+
+Em seguida, percorremos o primeiro vetor utilizando um loop for. Para cada número no vetor, verificamos se ele está presente no segundo vetor usando o método includes(). Além disso, também verificamos se o número já foi adicionado ao vetor vetorDeNumerosRepetidos para evitar duplicações. Se ambas as condições forem atendidas, adicionamos o número ao vetor vetorRepetidos.
+
+No exemplo de uso, definimos dois vetores de exemplo, vetor1 e vetor2, cada um com 20 números inteiros. Chamamos a função encontrarNumerosRepetidos, passando os dois vetores como argumentos, e armazenamos o resultado no vetor vetorRepetidos. Por fim, exibimos o vetor vetorRepetidos no console.
